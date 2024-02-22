@@ -4,7 +4,7 @@ from useraccount.models import Content
 class ContentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Content
-        fields = ['title','body','summary','document','categories']
+        fields = ['id','user','title','body','summary','document','categories']
     
 
     def update(self, instance, validated_data):
