@@ -16,7 +16,7 @@ __Technologies Used__
 * Django Rest Framework
 
 __Setup Instructions__
-1. git clone [https://github.com/your-username/content-management-api.git](https://github.com/shammas01/Arcitech_Content.git)https://github.com/shammas01/Arcitech_Content.git
+1. git clone https://github.com/shammas01/Arcitech_Content.git
 2. cd Arcitech
 3. pip install -r requirements.txt
 4. python manage.py migrate
